@@ -29,3 +29,7 @@ Folder Structure
 |-- style.css        # Main CSS file
 |-- images/          # Folder for images
 |-- README.md        # Project documentation
+
+Screenshots for your refernece:
+
+Here is a preview of the homepage of the portfolio website:(images/screenshots-1.png)
