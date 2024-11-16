@@ -33,5 +33,25 @@ Folder Structure
 Screenshots for your refernece:
 
 Here is a preview of the homepage of the portfolio website:
+
+
 ![Screenshot ](images/screenshots/1s.png)
+
+This is About Section:
+
+![Screenshot ](images/screenshots/2s.png)
+
+This is Services Section:
+
+![Screenshot ](images/screenshots/3s.png)
+
+This section will showcase your projects:
+
+![Screenshot ](images/screenshots/4.png)
+
+Here is contact form for contact:
+
+![Screenshot ](images/screenshots/5.png)
+
+
 
