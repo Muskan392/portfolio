@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+
+        <div id="header">
+            <div class="container">
+
+              
+               
+
+
+
+                <nav>
+                    <div class="name-container">
+                        <h3><span>M</span>USKAN</h3>
+                    </div>
+
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    
+                    <!-- Hamburger icon -->
+                    <label for="menu-toggle" class="fas fa-bars"></label>
+                    
+                    <!-- Close icon -->
+                    <label for="menu-toggle" class="fas fa-times"></label>
+
+                    
+                    
+
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about"  class="nav-link">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                      
+                        
+                    </ul>
+                    
+                   
+                </nav>
+
+                <div class="header-text">
+                    <p>Aspiring Software Engineer</p>
+                    <h1>Hi, I'm <span>Muskan </span><br>from India</h1>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+<!-- ABOUT---------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+
+                    <div  class="about-col1">
+                        <img class="img1" src="./images/images/user1.jpg" alt="">
+                    </div>
+                    <div id="about" class="about-col2">
+
+                        <h1 class="subtitle">About Me</h1>
+                        <p class="text">As a third-year engineering student, I have built a strong foundation in C++ as my core programming language, with a focus on problem-solving and algorithmic thinking. I am currently deepening my knowledge of Data Structures and Algorithms (DSA) to tackle complex challenges efficiently. Additionally, I am learning the MERN stack (MongoDB, Express, React, Node.js) to develop full-stack web applications and broaden my skill set in modern web development. With a passion for coding and continuous learning, I strive to enhance my technical abilities and contribute to impactful software development projects.</p>
+
+
+                        <div class="tab-titles">
+                            <a href="#skills" class="tab-links">Skills</a>
+                            <a href="#projects" class="tab-links">Projects</a>
+                            <a href="#education" class="tab-links">Education</a>
+
+                        </div>
+
+                        <div id="skills"class="tab-contents">
+                            <ul>
+                                <li><span>C++</span><br>Proficient in C++, with strong problem-solving and algorithmic skills</li>
+                                <li><span>Data Structures & Algorithms (DSA)</span><br>In-depth knowledge of data structures</li>
+                                <li><span>MERN Stack Development</span><br>Experience in building full-stack web applications using MongoDB, Express, React, and Node.js, focusing on both front-end and back-end development</li>
+                                <li><span>Problem Solving & Competitive Programming</span><br>Actively solving coding challenges on platforms like LeetCode and Codeforces</li>
+                            </ul>
+                        </div>
+
+
+                        <div id="projects" class="tab-contents">
+                            <ul>
+                                <li><span>To-Do List App</span><br> A task management tool that allows users to efficiently organize, track, and complete their daily tasks with an intuitive interface.</li>
+                                <li><span>BookMyShow</span><br> A movie ticket booking interface that enables users to browse movie listings, check showtimes, and select seats for an enhanced booking experience.</li>
+                                <li><span>Tour Buddy Website</span><br>A travel planning platform that helps users discover destinations, plan itineraries, and organize their trips with ease.</li>
+                                
+                            </ul>
+                        </div>
+
+                        <div id="education" class="tab-contents ">
+                            <ul>
+                                <li><span>10th Grade</span><br>DAV Public School, 2020-
+                                    Percentage: 95%</li>
+                                    <li><span>12th Grade</span><br>DAV Public School, 2022-
+                                        Percentage: 86%</li>
+                                <li><span>B.Tech in CSE</span><br>Vignan University, Expected Graduation: 2026</li>
+                               
+                              
+                                
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------servicess -->
+
+        <div id="services">
+                <div class="container">
+                    <h1 class="subtitle">My Services</h1>
+                    <div class="services-list">
+                       
+
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Web Development</h2>
+                            <p>I create responsive and visually engaging websites using HTML, CSS, JavaScript, and modern frameworks like React. My focus is on building seamless user experiences and scalable web solutions.</p>
+                            
+                            <!-- Hidden checkbox for toggle control -->
+                            <input type="checkbox" id="web-dev-more" class="toggle-checkbox">
+                            
+                            <!-- Learn more label linked to the checkbox -->
+                            <label for="web-dev-more" class="learn-more-link">Learn more</label>
+                            
+                            <!-- Extra content -->
+                            <span class="more-text"> I specialize in optimizing site performance, ensuring cross-browser compatibility, and implementing responsive design to make sure websites look stunning on any device.</span>
+                        </div>
+                        
+                        <div>
+                            <i class="fa-solid fa-desktop"></i>
+                            <h2>Full-Stack Development</h2>
+                            <p>Combining my skills in both front-end and back-end development, I build end-to-end web applications using the MERN stack.</p>
+                            
+                            <input type="checkbox" id="full-stack-more" class="toggle-checkbox">
+                            <label for="full-stack-more" class="learn-more-link">Learn more</label>
+                            <span class="more-text"> My expertise includes RESTful APIs, secure user authentication, and database design for a seamless user experience from front to back.</span>
+                        </div>
+                        
+                        <div>
+                            <i class="fa-solid fa-brain"></i>
+                            <h2>Problem Solving & DSA</h2>
+                            <p>I apply data structures and algorithms to solve complex problems efficiently, enhancing application performance and reliability.</p>
+                            
+                            <input type="checkbox" id="dsa-more" class="toggle-checkbox">
+                            <label for="dsa-more" class="learn-more-link">Learn more</label>
+                            <span class="more-text"> My problem-solving experience includes leveraging data structures like trees, graphs, and dynamic programming to tackle complex challenges.</span>
+                        </div>
+                        
+                        
+                    </div>
+
+                </div>
+
+
+
+
+                <div id="services1">
+                    <div class="container1">
+                      
+                
+                        <!-- UI/UX Design Section -->
+                        <div class="service-section1">
+                            <h2 class="service-heading1">UI/UX Designer</h2>
+                            <div class="service-content1">
+                                <div class="service-image1">
+                                    <img src="./images/images/uiux.jpg">
+                                </div>
+                                <div class="service-description1">
+                                    <p>
+                                        I am currently learning UI/UX design, focusing on creating visually appealing, functional, and user-friendly interfaces. I work with tools like Figma and Adobe XD to build wireframes, prototypes, and design layouts. My goal is to ensure that every product I design provides an intuitive experience for users across all platforms.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Responsive Web Design Section -->
+                        <div class="service-section1">
+                            <h2 class="service-heading1">Responsive Web Design</h2>
+                            <div class="service-content1">
+                                <div class="service-image1">
+                                    <img src="./images/images/website.jpg" alt="Responsive Web Design">
+                                </div>
+                                <div class="service-description1">
+                                    <p >
+                                        I create fully responsive websites that are designed to provide an optimal viewing experience across a wide range of devices. Using modern web technologies such as CSS Grid and Flexbox, I ensure that websites not only look great but also function seamlessly across mobile, tablet, and desktop devices.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+        </div>
+
+        <!-- portfolio---------------------- -->
+         <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./images/images/resumeeee (1).png" alt="">
+                        <div class="layer">
+                            <h3>
+                                Resume
+                            </h3>
+                            <p>A personal, interactive resume showcasing my skills, education, and projects with a clean and modern design</p>
+                            <a href="https://spontaneous-rolypoly-101d97.netlify.app"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/images/bookshow.png" alt="">
+                        <div class="layer">
+                            <h3>
+                              BookMyShow UI
+                            </h3>
+                            <p>A responsive movie ticket booking UI inspired by BookMyShow, featuring movie listings, showtimes, and seat selection.</p>
+                            <a href="https://elaborate-elf-6a3011.netlify.app"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/images/2.png" alt="">
+                        <div class="layer">
+                            <h3>
+                              TourBuddy UI
+                            </h3>
+                            <p>A user-friendly travel booking interface with features like destination search, itinerary planning, and hotel/activity bookings.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <input type="checkbox" id="seeMoreCheckbox" class="see-more-checkbox">
+        <label for="seeMoreCheckbox" class="btn">See More</label>
+
+        <!-- Text to be displayed after clicking the button -->
+        <div class="more-text">
+            <p>I will have more projects to showcase in the future.</p>
+        </div>
+
+
+                
+
+            </div>
+
+
+            <div class="description">
+                <h2 class="service-heading1">Project Descriptions</h2>
+               
+                <div class="d1">
+                    
+                    <div class="i">
+                        <h3 class="dtext">Resume</h3>
+                        <img src="./images/images/Account-pana.png" alt="">
+
+                    </div>
+                    <div class="des">
+                        <p class="dtext1">This project is a personal, interactive resume designed to showcase my professional skills, education, and experience. The resume is fully responsive, ensuring it looks great on both desktop and mobile devices. It is designed with a modern and clean user interface, making it easy for potential employers to navigate through my details. The design incorporates engaging visuals and smooth transitions to enhance the user experience.</p>
+
+                    </div>
+                   
+                  
+                </div>
+
+                <div class="d1">
+                    <div class="i">
+                        <h3 class="dtext">BookMyShow</h3>
+                    <img src="./images/images/Movie Night-pana.png" alt="">
+
+                    </div>
+                    
+                    <div class="des">
+                        <p class="dtext1">BookMyShow UI is a movie ticket booking interface inspired by the popular online platform. It includes features like movie listings, showtimes, and seat selection, providing users with a seamless and intuitive experience. The design is mobile-friendly and allows for easy navigation. Users can quickly find their desired movies, view available showtimes, and choose their preferred seats, all through an elegant, user-centric layout.</p>
+
+                    </div>
+                    
+                </div>
+
+                <div class="d1">
+                    <div class="i">
+                        <h3 class="dtext">TourBuddy</h3>
+                    <img src="./images/images/Trip-pana.png" alt="">
+
+                    </div>
+                    <div class="des">
+                        <p class="dtext1">TourBuddy UI is a user-friendly travel booking platform designed to help users plan their trips with ease. It offers features such as destination search, itinerary planning, and hotel/activity bookings, all from a single interface. The design emphasizes simplicity and ease of use, making it perfect for travelers looking to organize their vacations quickly and efficiently. The responsive layout ensures the platform works flawlessly on all devices, offering a smooth browsing experience for users worldwide.</p>
+
+                    </div>
+                    
+                  
+                </div>
+
+            </div>
+         </div>
+
+         <!-- -------contact------- -->
+
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>keshrimuskan997@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>1234560789</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://discord.com/channels/@me"><i class="fa-brands fa-discord"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://github.com/dashboard"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="./images/images/P_Resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form >
+
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button  class="btn btn2" type="Submit">Submit</button>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+
+
+
+
+         
+        
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2024 Made with <i class="fa-solid fa-heart"></i> By Muskan Keshri. All content, images, and designs on this site are owned by Muskan Keshri unless otherwise stated. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+
+    
+</body>
+</html>
